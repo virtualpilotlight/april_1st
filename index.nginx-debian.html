@@ -13,12 +13,29 @@
 	<div id="header" class="header">
 		<!-- name -->
 		<h1>Virtual Pilot Light</h1>
+		<h2>The Definitive Guide on How to Server Static Content on NGINX</h2>
 	</div><!--/.header -->
 
 	<div class="container">
 		<div class="row">
 			<div>
-				<p>Have you ever thought to yourself, how can I serve web content in the most wrong way possible? Who needs HTTPS, CSS, or JS that's for wussies!</p><p>Maybe you have a total normal or legit reason for wanting to abuse the free service that is nginx.</p><p>Assuming you already have a domain pointing at a public IP address on a server somewhere, follow these instructions. You don't need to clone <i>my</i> repo but it is impartive the page you want to serve is named index.nginx-debian.html</p><p>Relitive links work but don't push your luck.</p> 
+				<p>Have you ever thought to yourself, how can I serve web content in the most wrong way possible? Who needs HTTPS, screw CSS, or JS that's for wussies!</p>
+				<p>Maybe you have a total normal or legit reason for wanting to abuse the free service that is nginx.</p>
+				<p>Assuming you already have a domain pointing at a public IP address on a server somewhere, follow these instructions. You mustn't to clone <i>my</i> repo but it is impartive the home page you want to serve is named <b>index.nginx-debian.html</b></p>
+				<p>Relitive links work but don't push your luck.</p>
+				<p>Run these commands to use the bash script.</p> 
+				<ul>
+					<li>sudo git clone https://github.com/virtualpilotlight/april_1st.git</li>
+					<li>cd april_1st</li>
+					<li>sudo bash april_1st.sh</li>
+				</ul>
+				<p>The scrip requires interaction so don't think you can just set it and forget it.</p>
+				<ul>
+					<li>y</li>
+					<li>y</li>
+				</ul>
+				<p>Go to the HTTP webpage or the IP & Bob's your uncle. </p>
+				<p>Please fork away but don't even think about touching the bash scrip! Again links can be relitive but the home link must be named index.nginx-debian.html & need to be in the /var/www/html/ folder. Good Luck & please don't serve web content this way!</p>
 			</div>
 		</div>
 	</div>
